@@ -1,0 +1,97 @@
+@font-face{
+    font-family: "HelveticaNeue-CondensedBold";
+    src: url("NeueHelveticaBQ-Bold.woff");
+}
+
+*{
+    font-family: "HelveticaNeue-CondensedBold";
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+figcaption{
+    font-size: medium;
+}
+
+h2, div{
+    display: inline-block;
+}
+
+#verde{
+    background: linear-gradient(0deg, rgba(188,95,33,1) 0%, rgba(154,97,236,1) 100%);
+    margin: 10px;
+    border-radius: 20px;
+    width: 300px;
+    padding-bottom: 12px;
+}
+
+#verde ::placeholder {
+    color: rgba(17, 17, 17, 0.459);
+    opacity: 1;
+  }
+
+#verde textarea{
+    resize: none;
+    height: 390px;
+    width: 270px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #111111;
+}
+
+textarea:focus{
+    outline: none;
+  }
+
+img{
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#verde p{
+    font-size: small;
+    margin-left: 5px;
+    color: #111111;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#negro{
+    background-color: #111;
+    margin: 10px;
+    border-radius: 20px;
+    width: 300px;
+    padding-bottom: 12px;
+}
+
+#negro textarea{
+    resize: none;
+    height: 390px;
+    width: 270px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: #BC5F21;
+}
+
+#negro ::placeholder {
+    color: #bc5f2177;
+    opacity: 1;
+}
+
+#negro p{
+    font-size: small;
+    margin-left: 5px;
+    color: #BC5F21;
+    display: inline-block;
+    vertical-align: middle;
+}
